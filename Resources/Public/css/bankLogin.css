@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* #3333FF - Blau*/
+/*
+* grey #515151;
+* orange #FF8700;
+* white #FFF;
+*/
+
+body{
+  background-color: #515151;
+  color: white;
+  font-family: arial;
+}
+
+#nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color:  #FF8700;
+  color: white;
+
+  font-size: 1.2rem;
+
+
+}
+
+#nav>li{
+  flex-grow: 1;
+  text-align: center;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+#nav>li:nth-child(1){
+  margin-right: 20rem;
+}
+
+#main{
+  text-align: center;
+  margin: 0 auto;
+  margin: 5rem;
+}
+
+img{
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+button{
+  background-color: #FF8700;
+  color: white;
+}

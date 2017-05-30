@@ -1,0 +1,56 @@
+/*
+* grey #515151;
+* orange #FF8700;
+* white #FFF;
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #515151;
+  color: white;
+  font-family: arial;
+}
+
+#nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+
+  background-color:  #FF8700;
+
+  font-size: 1.2rem;
+
+
+}
+
+#nav>li{
+  flex-grow: 1;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+#nav>li>a{
+  text-decoration: none;
+  color: white;
+}
+
+
+#main{
+  text-align: center;
+  margin: 0 auto;
+  margin: 5rem;
+}
+
+#left{
+  margin: 0 auto;
+  margin: 5rem;
+}
+
+img{
+  margin: 5rem;
+  max-width: 50rem;
+  max-height: 35rem;
+}
